@@ -35,4 +35,4 @@ git push origin "$tag"
 git push origin HEAD:main
 git remote -v
 
-#dart pub publish --force
+dart pub publish --force
