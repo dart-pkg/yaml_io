@@ -15,3 +15,7 @@
 ## 2025.426.826
 
 - Added: example/example.dart
+
+## 2025.426.858
+
+- Added  to pubspec.yaml
