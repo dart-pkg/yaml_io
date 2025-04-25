@@ -1,6 +1,8 @@
 name: yaml_io
-description: yaml_io package project
-version: 2025.424.331
+description: |-
+  [yaml_io]
+  A wrapper library for yaml/yaml_writer packages.
+version: 2025.426.511
 homepage:
 repository: https://github.com/dart-pkg/yaml_io
 

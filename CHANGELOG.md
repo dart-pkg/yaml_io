@@ -7,3 +7,7 @@
 ## 2025.424.331
 
 - toYaml() does not quote string value any more
+
+## 2025.426.511
+
+- [yaml_io] A wrapper library for yaml/yaml_writer packages.
