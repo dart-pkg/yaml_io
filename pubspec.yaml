@@ -3,7 +3,7 @@ description: |-
   [yaml_io]
   A wrapper library for yaml/yaml_writer packages.
 version: 2025.427.1722
-homepage:
+homepage: 
 repository: https://github.com/dart-pkg/yaml_io
 topics:
   - yaml
