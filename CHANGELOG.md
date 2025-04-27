@@ -23,3 +23,15 @@
 ## 2025.427.1722
 
 - Update dependencies
+
+## 2025.428.853
+
+- Introduced yaml_magic package
+
+```
+--- a/pubspec.yaml
++++ b/pubspec.yaml
+-version: 2025.427.1722
++version: 2025.428.853
++  yaml_magic: ^1.0.6
+```
