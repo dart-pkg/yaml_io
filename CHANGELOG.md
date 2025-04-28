@@ -46,3 +46,14 @@
 -version: 2025.428.853
 +version: 2025.428.917
 ```
+
+## 2025.428.1726
+
+- Update package dependencies
+
+```
+--- a/pubspec.yaml
++++ b/pubspec.yaml
+-version: 2025.428.917
++version: 2025.428.1726
+```
