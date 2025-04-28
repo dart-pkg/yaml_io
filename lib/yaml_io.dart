@@ -15,10 +15,10 @@ String toYaml(dynamic x) {
   final yamlWriter = YamlWriter(allowUnquotedStrings: true);
   final yamlDoc = yamlWriter.write(x);
   // return yamlDoc.toString();
-  String yaml = yamlDoc.toString();
-  yaml = YamlMagic.fromString(content: yaml, path: 'temp.yaml').toString();
-  if (yaml.endsWith('\n\n')) {
-    yaml = yaml.substring(0, yaml.length - 1);
+  String yaml1 = yamlDoc.toString();
+  String yaml2 = YamlMagic.fromString(content: yaml1, path: 'yaml1').toString();
+  if (yaml2.endsWith('\n\n')) {
+    yaml2 = yaml2.substring(0, yaml2.length - 1);
   }
-  return yaml;
+  return yaml2 == '' ? yaml1 : yaml2;
 }

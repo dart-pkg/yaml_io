@@ -16,6 +16,10 @@ main() {
       dynamic obj = fromYaml(yaml);
       echo(obj['ids'][1], r"obj['ids'][1]");
       expect(obj['ids'][1] == 20, isTrue);
+      echo(toYaml(null), r'toYaml(null)');
+      echo(toYaml(123), r'toYaml(123)');
+      echo(toYaml('A string'), 'toYaml(\'A string\')');
+      echo(toYaml('A multiline\nstring'));
     });
   });
 }

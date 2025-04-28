@@ -35,3 +35,14 @@
 +version: 2025.428.853
 +  yaml_magic: ^1.0.6
 ```
+
+## 2025.428.917
+
+- Fixed bug of toYaml() returning an empty string
+
+```
+--- a/pubspec.yaml
++++ b/pubspec.yaml
+-version: 2025.428.853
++version: 2025.428.917
+```
