@@ -57,3 +57,21 @@
 -version: 2025.428.917
 +version: 2025.428.1726
 ```
+
+## 2025.430.1710
+
+- Added: platforms in pubspec.yaml
+
+```
+--- a/pubspec.yaml
++++ b/pubspec.yaml
+-version: 2025.428.1726
++version: 2025.430.1710
++platforms:
++  android: 
++  ios: 
++  linux: 
++  macos: 
++  web: 
++  windows: 
+```
