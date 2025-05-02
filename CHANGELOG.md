@@ -75,3 +75,17 @@
 +  web: 
 +  windows: 
 ```
+
+## 2025.502.1751
+
+- Introduced dependency to yaml_to_string package
+
+```
+--- a/pubspec.yaml
++++ b/pubspec.yaml
+-version: 2025.430.1710
++version: 2025.502.1751
+-  yaml_magic: ^1.0.6
+-  yaml_writer: ^2.1.0
++  yaml_to_string: ^2025.502.1742
+```

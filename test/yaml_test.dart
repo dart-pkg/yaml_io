@@ -8,11 +8,29 @@ main() {
       final yaml = toYaml({
         'name': 'Joe',
         'null_data': null,
-        'ids': [10, 20, 30],
+        'ids': [10, 20, 30, null],
         'desc': 'This is\na multiline\ntext',
         'enabled': true,
       });
       echo(yaml);
+      expect(
+        yaml ==
+            '''
+name: Joe
+null_data:
+ids:
+  - 10
+  - 20
+  - 30
+  - null
+desc: |-
+  This is
+  a multiline
+  text
+enabled: true
+''',
+        isTrue,
+      );
       dynamic obj = fromYaml(yaml);
       echo(obj['ids'][1], r"obj['ids'][1]");
       expect(obj['ids'][1] == 20, isTrue);
